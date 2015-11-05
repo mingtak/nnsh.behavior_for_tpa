@@ -1,0 +1,95 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-10-15 02:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: nnsh.behavior\n"
+
+#: ./attachedfile.py:18
+msgid "Attached file"
+msgstr ""
+
+#: ./classification.py:42
+msgid "Classfication"
+msgstr ""
+
+#: ./classification.py:25
+msgid "Coworker"
+msgstr ""
+
+#: ./classification.py:35
+msgid "Department"
+msgstr ""
+
+#: ./template/attachedfile.pt:6
+msgid "Download file:"
+msgstr ""
+
+#: ./attachedfile.py:17
+msgid "File"
+msgstr ""
+
+#: ./classification.py:26
+msgid "Honor"
+msgstr ""
+
+#: ./classification.py:23
+msgid "News"
+msgstr ""
+
+#: ./regiform.py:18
+msgid "Registration embeded code"
+msgstr ""
+
+#: ./selecttheme.py:27
+msgid "Select theme"
+msgstr ""
+
+#: ./selecttheme.py:28
+msgid "Select theme for this folder."
+msgstr ""
+
+#: ./classification.py:24
+msgid "Student"
+msgstr ""
+
+#: ./classification.py:13
+msgid "adma"
+msgstr ""
+
+#: ./classification.py:14
+msgid "admb"
+msgstr ""
+
+#: ./classification.py:15
+msgid "admc"
+msgstr ""
+
+#: ./classification.py:16
+msgid "admd"
+msgstr ""
+
+#: ./classification.py:17
+msgid "adme"
+msgstr ""
+
+#: ./classification.py:18
+msgid "admf"
+msgstr ""
+
+#: ./classification.py:19
+msgid "admg"
+msgstr ""
+

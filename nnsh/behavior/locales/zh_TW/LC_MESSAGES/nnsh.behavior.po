@@ -1,0 +1,91 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2015-10-15 02:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: DOMAIN\n"
+
+#: ./attachedfile.py:18
+msgid "Attached file"
+msgstr "附加檔案"
+
+#: ./classification.py:42
+msgid "Classfication"
+msgstr "分類"
+
+#: ./classification.py:25
+msgid "Coworker"
+msgstr "教職員專區"
+
+#: ./classification.py:35
+msgid "Department"
+msgstr "行政處室"
+
+#: ./template/attachedfile.pt:6
+msgid "Download file:"
+msgstr "檔案下載:"
+
+#: ./attachedfile.py:17
+msgid "File"
+msgstr "檔案"
+
+#: ./classification.py:26
+msgid "Honor"
+msgstr "榮譽榜"
+
+#: ./classification.py:23
+msgid "News"
+msgstr "最新消息"
+
+#: ./regiform.py:18
+msgid "Registration embeded code"
+msgstr "註冊嵌入碼"
+
+#: ./selecttheme.py:27
+msgid "Select theme"
+msgstr "選擇版型"
+
+#: ./selecttheme.py:28
+msgid "Select theme for this folder."
+msgstr "為這個資料夾選擇版型"
+
+#: ./classification.py:24
+msgid "Student"
+msgstr "學生專區"
+
+#: ./classification.py:13
+msgid "adma"
+msgstr "教務處"
+
+#: ./classification.py:14
+msgid "admb"
+msgstr "學務處"
+
+#: ./classification.py:15
+msgid "admc"
+msgstr "輔導處"
+
+#: ./classification.py:16
+msgid "admd"
+msgstr "總務處"
+
+#: ./classification.py:17
+msgid "adme"
+msgstr "圖書館"
+
+#: ./classification.py:18
+msgid "admf"
+msgstr "人事室"
+
+#: ./classification.py:19
+msgid "admg"
+msgstr "會計室"

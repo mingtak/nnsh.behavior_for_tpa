@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<object name="portal_catalog">
+    <index name="selectTheme" meta_type="FieldIndex">
+        <indexed_attr value="selectTheme"/>
+    </index>
+    <column value="selectTheme"/>
+
+    <index name="department" meta_type="FieldIndex">
+        <indexed_attr value="department"/>
+    </index>
+    <column value="department"/>
+
+    <index name="classify" meta_type="FieldIndex">
+        <indexed_attr value="classify"/>
+    </index>
+    <column value="classify"/>
+
+</object>
