@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-10-15 02:00+0000\n"
+"POT-Creation-Date: 2015-11-05 09:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,19 +17,11 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: nnsh.behavior\n"
 
-#: ./attachedfile.py:18
-msgid "Attached file"
-msgstr ""
-
-#: ./classification.py:42
-msgid "Classfication"
-msgstr ""
-
-#: ./classification.py:25
+#: ./classification.py:33
 msgid "Coworker"
 msgstr ""
 
-#: ./classification.py:35
+#: ./classification.py:43
 msgid "Department"
 msgstr ""
 
@@ -37,59 +29,63 @@ msgstr ""
 msgid "Download file:"
 msgstr ""
 
-#: ./attachedfile.py:17
-msgid "File"
-msgstr ""
-
-#: ./classification.py:26
+#: ./classification.py:34
 msgid "Honor"
 msgstr ""
 
-#: ./classification.py:23
+#: ./classification.py:31
 msgid "News"
 msgstr ""
 
-#: ./regiform.py:18
-msgid "Registration embeded code"
-msgstr ""
-
-#: ./selecttheme.py:27
-msgid "Select theme"
-msgstr ""
-
-#: ./selecttheme.py:28
-msgid "Select theme for this folder."
-msgstr ""
-
-#: ./classification.py:24
+#: ./classification.py:32
 msgid "Student"
 msgstr ""
 
-#: ./classification.py:13
-msgid "adma"
-msgstr ""
-
-#: ./classification.py:14
-msgid "admb"
-msgstr ""
-
-#: ./classification.py:15
-msgid "admc"
-msgstr ""
-
 #: ./classification.py:16
-msgid "admd"
+msgid "department_01"
 msgstr ""
 
 #: ./classification.py:17
-msgid "adme"
+msgid "department_02"
 msgstr ""
 
 #: ./classification.py:18
-msgid "admf"
+msgid "department_03"
 msgstr ""
 
 #: ./classification.py:19
-msgid "admg"
+msgid "department_04"
+msgstr ""
+
+#: ./classification.py:20
+msgid "department_05"
+msgstr ""
+
+#: ./classification.py:21
+msgid "department_06"
+msgstr ""
+
+#: ./classification.py:22
+msgid "department_07"
+msgstr ""
+
+#: ./classification.py:23
+msgid "department_08"
+msgstr ""
+
+#: ./classification.py:24
+msgid "department_09"
+msgstr ""
+
+#: ./classification.py:25
+msgid "department_10"
+msgstr ""
+
+#: ./classification.py:26
+msgid "department_11"
+msgstr ""
+
+#: ./classification.py:27
+msgid "department_12"
 msgstr ""
 

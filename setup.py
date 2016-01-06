@@ -30,6 +30,7 @@ setup(name='nnsh.behavior',
           'plone.app.relationfield',
           'plone.namedfile [blobs]',
           # -*- Extra requirements: -*-
+          'plone.principalsource',
       ],
       entry_points="""
       # -*- Entry points: -*-

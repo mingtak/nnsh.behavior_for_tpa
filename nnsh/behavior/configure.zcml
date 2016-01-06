@@ -44,6 +44,14 @@
         for="plone.dexterity.interfaces.IDexterityContent"
         />
 
+    <plone:behavior
+        title="BannerSlider"
+        description="Banner slider behavior"
+        provides=".bannerslider.IBannerSlider"
+        factory=".bannerslider.BannerSlider"
+        for="plone.dexterity.interfaces.IDexterityContent"
+        />
+
 <!--
     <plone:behavior
         title="SelectTheme"

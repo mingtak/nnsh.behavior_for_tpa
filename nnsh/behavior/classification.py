@@ -8,18 +8,24 @@ from zope import schema
 from zope.component import adapts
 from zope.interface import alsoProvides, implements
 from zope.schema.vocabulary import SimpleVocabulary, SimpleTerm
+from plone import api
 
 from nnsh.behavior import MessageFactory as _
 
 
 organizers = SimpleVocabulary(
-    [SimpleTerm(value=u'adma', title=_(u'adma')),
-     SimpleTerm(value=u'admb', title=_(u'admb')),
-     SimpleTerm(value=u'admc', title=_(u'admc')),
-     SimpleTerm(value=u'admd', title=_(u'admd')),
-     SimpleTerm(value=u'adme', title=_(u'adme')),
-     SimpleTerm(value=u'admf', title=_(u'admf')),
-     SimpleTerm(value=u'admg', title=_(u'admg'))]
+    [SimpleTerm(value=u'department_01', title=_(u'department_01')),
+     SimpleTerm(value=u'department_02', title=_(u'department_02')),
+     SimpleTerm(value=u'department_03', title=_(u'department_03')),
+     SimpleTerm(value=u'department_04', title=_(u'department_04')),
+     SimpleTerm(value=u'department_05', title=_(u'department_05')),
+     SimpleTerm(value=u'department_06', title=_(u'department_06')),
+     SimpleTerm(value=u'department_07', title=_(u'department_07')),
+     SimpleTerm(value=u'department_08', title=_(u'department_08')),
+     SimpleTerm(value=u'department_09', title=_(u'department_09')),
+     SimpleTerm(value=u'department_10', title=_(u'department_10')),
+     SimpleTerm(value=u'department_11', title=_(u'department_11')),
+     SimpleTerm(value=u'department_12', title=_(u'department_12')),]
     )
 
 classfication = SimpleVocabulary(
@@ -34,19 +40,28 @@ class IClassification(model.Schema):
     """
        Marker/Form interface for Classification
     """
+    """
     department = schema.Choice(
             title=_(u"Department"),
             vocabulary=organizers,
             required=True,
-            default='adma',
-        )
+            default='department_01',
+        )"""
 
+
+    publisher = schema.Choice(
+        title=_(u"Publish Unit"),
+        vocabulary=u"plone.principalsource.Groups",
+        required=True,
+    )
+
+    """
     classify = schema.Choice(
             title=_(u"Classfication"),
             vocabulary=classfication,
             required=True,
             default='news',
-        )
+        ) """
 
 
 alsoProvides(IClassification, IFormFieldProvider)
@@ -72,11 +87,12 @@ class Classification(object):
         self.context = context
 
     # -*- Your behavior property setters & getters here ... -*-
-    department = context_property("department")
-    classify = context_property("classify")
+#    department = context_property("department")
+    publisher = context_property("publisher")
+#    classify = context_property("classify")
 
 
-
+"""
 @indexer(Interface)
 def department_indexer(obj):
     if hasattr(obj, 'department'):
@@ -88,4 +104,10 @@ def classify_indexer(obj):
     if hasattr(obj, 'classify'):
         return obj.classify
 grok.global_adapter(classify_indexer, name='classify')
+"""
+@indexer(Interface)
+def publisher_indexer(obj):
+    if hasattr(obj, 'publisher'):
+        return api.group.get(groupname=obj.publisher).getProperty('title')
+grok.global_adapter(publisher_indexer, name='publisher')
 

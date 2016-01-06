@@ -5,14 +5,21 @@
     </index>
     <column value="selectTheme"/>
 
-    <index name="department" meta_type="FieldIndex">
+<!--    <index name="department" meta_type="FieldIndex">
         <indexed_attr value="department"/>
     </index>
     <column value="department"/>
+-->
 
+    <index name="publisher" meta_type="FieldIndex">
+        <indexed_attr value="publisher"/>
+    </index>
+    <column value="publisher"/>
+
+<!--
     <index name="classify" meta_type="FieldIndex">
         <indexed_attr value="classify"/>
     </index>
     <column value="classify"/>
-
+-->
 </object>

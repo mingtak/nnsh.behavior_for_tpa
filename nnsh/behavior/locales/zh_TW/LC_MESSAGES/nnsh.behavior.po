@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-10-15 02:00+0000\n"
+"POT-Creation-Date: 2015-11-05 09:13+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,19 +14,11 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#: ./attachedfile.py:18
-msgid "Attached file"
-msgstr "附加檔案"
-
-#: ./classification.py:42
-msgid "Classfication"
-msgstr "分類"
-
-#: ./classification.py:25
+#: ./classification.py:33
 msgid "Coworker"
 msgstr "教職員專區"
 
-#: ./classification.py:35
+#: ./classification.py:43
 msgid "Department"
 msgstr "行政處室"
 
@@ -34,58 +26,63 @@ msgstr "行政處室"
 msgid "Download file:"
 msgstr "檔案下載:"
 
-#: ./attachedfile.py:17
-msgid "File"
-msgstr "檔案"
-
-#: ./classification.py:26
+#: ./classification.py:34
 msgid "Honor"
 msgstr "榮譽榜"
 
-#: ./classification.py:23
+#: ./classification.py:31
 msgid "News"
 msgstr "最新消息"
 
-#: ./regiform.py:18
-msgid "Registration embeded code"
-msgstr "註冊嵌入碼"
-
-#: ./selecttheme.py:27
-msgid "Select theme"
-msgstr "選擇版型"
-
-#: ./selecttheme.py:28
-msgid "Select theme for this folder."
-msgstr "為這個資料夾選擇版型"
-
-#: ./classification.py:24
+#: ./classification.py:32
 msgid "Student"
 msgstr "學生專區"
 
-#: ./classification.py:13
-msgid "adma"
-msgstr "教務處"
-
-#: ./classification.py:14
-msgid "admb"
-msgstr "學務處"
-
-#: ./classification.py:15
-msgid "admc"
-msgstr "輔導處"
-
 #: ./classification.py:16
-msgid "admd"
-msgstr "總務處"
+msgid "department_01"
+msgstr "秘書室"
 
 #: ./classification.py:17
-msgid "adme"
-msgstr "圖書館"
+msgid "department_02"
+msgstr "教務處"
 
 #: ./classification.py:18
-msgid "admf"
-msgstr "人事室"
+msgid "department_03"
+msgstr "訓導處"
 
 #: ./classification.py:19
-msgid "admg"
-msgstr "會計室"
+msgid "department_04"
+msgstr "總務處"
+
+#: ./classification.py:20
+msgid "department_05"
+msgstr "人事室"
+
+#: ./classification.py:21
+msgid "department_06"
+msgstr "主計室"
+
+#: ./classification.py:22
+msgid "department_07"
+msgstr "學生總隊"
+
+#: ./classification.py:23
+msgid "department_08"
+msgstr "圖書館"
+
+#: ./classification.py:24
+msgid "department_09"
+msgstr "資訊室"
+
+#: ./classification.py:25
+msgid "department_10"
+msgstr "科學實驗室"
+
+#: ./classification.py:26
+msgid "department_11"
+msgstr "通識教育中心"
+
+#: ./classification.py:27
+msgid "department_12"
+msgstr "醫務室"
+
