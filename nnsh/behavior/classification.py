@@ -51,7 +51,9 @@ class IClassification(model.Schema):
 
     publisher = schema.Choice(
         title=_(u"Publish Unit"),
+        description=_(u"Please select a publish unit."),
         vocabulary=u"plone.principalsource.Groups",
+        default=u"admin09",
         required=True,
     )
 

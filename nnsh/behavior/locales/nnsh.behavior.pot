@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-11-05 09:13+0000\n"
+"POT-Creation-Date: 2016-01-22 05:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,75 +17,122 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: nnsh.behavior\n"
 
-#: ./classification.py:33
-msgid "Coworker"
+#: ./bannerslider.py:21
+msgid "Banner image 1"
 msgstr ""
 
-#: ./classification.py:43
-msgid "Department"
+#: ./bannerslider.py:26
+msgid "Banner image 2"
+msgstr ""
+
+#: ./bannerslider.py:31
+msgid "Banner image 3"
+msgstr ""
+
+#: ./bannerslider.py:36
+msgid "Banner image 4"
+msgstr ""
+
+#: ./bannerslider.py:41
+msgid "Banner image 5"
+msgstr ""
+
+#: ./configure.zcml:53
+msgid "Banner slider behavior"
+msgstr ""
+
+#: ./configure.zcml:53
+msgid "BannerSlider"
+msgstr ""
+
+#: ./configure.zcml:45
+msgid "Classification"
+msgstr ""
+
+#: ./configure.zcml:45
+msgid "Classification behavior"
+msgstr ""
+
+#: ./classification.py:34
+msgid "Coworker"
 msgstr ""
 
 #: ./template/attachedfile.pt:6
 msgid "Download file:"
 msgstr ""
 
-#: ./classification.py:34
+#: ./configure.zcml:35
+msgid "Extension profile for NNSH dexterity behavior module"
+msgstr ""
+
+#: ./classification.py:35
 msgid "Honor"
 msgstr ""
 
-#: ./classification.py:31
-msgid "News"
+#: ./configure.zcml:35
+msgid "NNSH dexterity behavior module"
 msgstr ""
 
 #: ./classification.py:32
+msgid "News"
+msgstr ""
+
+#: ./classification.py:54
+msgid "Please select a publish unit."
+msgstr ""
+
+#: ./classification.py:53
+msgid "Publish Unit"
+msgstr ""
+
+#: ./classification.py:33
 msgid "Student"
 msgstr ""
 
-#: ./classification.py:16
+#: ./classification.py:17
 msgid "department_01"
 msgstr ""
 
-#: ./classification.py:17
+#: ./classification.py:18
 msgid "department_02"
 msgstr ""
 
-#: ./classification.py:18
+#: ./classification.py:19
 msgid "department_03"
 msgstr ""
 
-#: ./classification.py:19
+#: ./classification.py:20
 msgid "department_04"
 msgstr ""
 
-#: ./classification.py:20
+#: ./classification.py:21
 msgid "department_05"
 msgstr ""
 
-#: ./classification.py:21
+#: ./classification.py:22
 msgid "department_06"
 msgstr ""
 
-#: ./classification.py:22
+#: ./classification.py:23
 msgid "department_07"
 msgstr ""
 
-#: ./classification.py:23
+#: ./classification.py:24
 msgid "department_08"
 msgstr ""
 
-#: ./classification.py:24
+#: ./classification.py:25
 msgid "department_09"
 msgstr ""
 
-#: ./classification.py:25
+#: ./classification.py:26
 msgid "department_10"
 msgstr ""
 
-#: ./classification.py:26
+#: ./classification.py:27
 msgid "department_11"
 msgstr ""
 
-#: ./classification.py:27
+#: ./classification.py:28
 msgid "department_12"
 msgstr ""
-

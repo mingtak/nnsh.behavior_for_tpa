@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2015-11-05 09:13+0000\n"
+"POT-Creation-Date: 2016-01-22 05:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,75 +14,122 @@ msgstr ""
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 
-#: ./classification.py:33
+#: ./bannerslider.py:21
+msgid "Banner image 1"
+msgstr "橫幅圖檔 1"
+
+#: ./bannerslider.py:26
+msgid "Banner image 2"
+msgstr "橫幅圖檔 2"
+
+#: ./bannerslider.py:31
+msgid "Banner image 3"
+msgstr "橫幅圖檔 3"
+
+#: ./bannerslider.py:36
+msgid "Banner image 4"
+msgstr "橫幅圖檔 4"
+
+#: ./bannerslider.py:41
+msgid "Banner image 5"
+msgstr "橫幅圖檔 5"
+
+#: ./configure.zcml:53
+msgid "Banner slider behavior"
+msgstr "橫幅投影片輪播設定"
+
+#: ./configure.zcml:53
+msgid "BannerSlider"
+msgstr "橫幅投影片輪播"
+
+#: ./configure.zcml:45
+msgid "Classification"
+msgstr "分類"
+
+#: ./configure.zcml:45
+msgid "Classification behavior"
+msgstr "分類"
+
+#: ./classification.py:34
 msgid "Coworker"
 msgstr "教職員專區"
-
-#: ./classification.py:43
-msgid "Department"
-msgstr "行政處室"
 
 #: ./template/attachedfile.pt:6
 msgid "Download file:"
 msgstr "檔案下載:"
 
-#: ./classification.py:34
+#: ./configure.zcml:35
+msgid "Extension profile for NNSH dexterity behavior module"
+msgstr ""
+
+#: ./classification.py:35
 msgid "Honor"
 msgstr "榮譽榜"
 
-#: ./classification.py:31
+#: ./configure.zcml:35
+msgid "NNSH dexterity behavior module"
+msgstr ""
+
+#: ./classification.py:32
 msgid "News"
 msgstr "最新消息"
 
-#: ./classification.py:32
+#: ./classification.py:54
+msgid "Please select a publish unit."
+msgstr "請選擇您所屬的發佈單位."
+
+#: ./classification.py:53
+msgid "Publish Unit"
+msgstr "發佈單位"
+
+#: ./classification.py:33
 msgid "Student"
 msgstr "學生專區"
 
-#: ./classification.py:16
+#: ./classification.py:17
 msgid "department_01"
 msgstr "秘書室"
 
-#: ./classification.py:17
+#: ./classification.py:18
 msgid "department_02"
 msgstr "教務處"
 
-#: ./classification.py:18
+#: ./classification.py:19
 msgid "department_03"
 msgstr "訓導處"
 
-#: ./classification.py:19
+#: ./classification.py:20
 msgid "department_04"
 msgstr "總務處"
 
-#: ./classification.py:20
+#: ./classification.py:21
 msgid "department_05"
 msgstr "人事室"
 
-#: ./classification.py:21
+#: ./classification.py:22
 msgid "department_06"
 msgstr "主計室"
 
-#: ./classification.py:22
+#: ./classification.py:23
 msgid "department_07"
 msgstr "學生總隊"
 
-#: ./classification.py:23
+#: ./classification.py:24
 msgid "department_08"
 msgstr "圖書館"
 
-#: ./classification.py:24
+#: ./classification.py:25
 msgid "department_09"
 msgstr "資訊室"
 
-#: ./classification.py:25
+#: ./classification.py:26
 msgid "department_10"
 msgstr "科學實驗室"
 
-#: ./classification.py:26
+#: ./classification.py:27
 msgid "department_11"
 msgstr "通識教育中心"
 
-#: ./classification.py:27
+#: ./classification.py:28
 msgid "department_12"
 msgstr "醫務室"
-
